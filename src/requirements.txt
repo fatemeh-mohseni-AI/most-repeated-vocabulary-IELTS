@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+pydantic
+PyPDF2
+tabulate
+db-sqlite3
+aiofiles
+nltk
+python-multipart
+sqlalchemy
+pymupdf
+pytesseract
+pillow
+pyspellchecker
+python-docx
+pandas
+xlsxwriter
