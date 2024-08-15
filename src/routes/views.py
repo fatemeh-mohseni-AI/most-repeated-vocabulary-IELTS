@@ -7,7 +7,7 @@ from fastapi.responses import StreamingResponse
 from src.logic.analyse import analyze_files
 from collections import Counter
 from src.static.generate import generate_html_table
-import pandas as pd
+# import pandas as pd
 import aiofiles
 import os
 import io
