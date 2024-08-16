@@ -1,4 +1,4 @@
-## $${\color{yellow}Cambridge\space IELTS \space PDF \space  Analyzer}$$ :dizzy: 
+## $${\color{orange}Cambridge\space IELTS \space PDF \space  Analyzer}$$ :dizzy: 
 
 This project is a FastAPI-based web application designed to analyze $${\color{lightgreen}Cambridge \space IELTS \space PDFs \space (Books 1-18)}$$ for the most and least repeated words. It can handle both regular text-based PDFs and scanned image-based PDFs by converting them to images and extracting text using OCR (Optical Character Recognition). Additionally, it performs spell-checking and word correction to ensure the accuracy of the extracted text.
 
