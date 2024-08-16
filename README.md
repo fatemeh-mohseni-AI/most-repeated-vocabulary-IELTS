@@ -77,4 +77,6 @@ This project is a FastAPI-based web application designed to analyze $${\color{li
 
 ## $${\\color{LightSKYBlue}Demo}$$ :iphone:
 
-![Demo of Cambridge IELTS PDF Analyzer](images/demo.png)
+![Demo of Cambridge IELTS PDF Analyzer](images/demo1.png)
+
+![Demo of Cambridge IELTS PDF Analyzer](images/demo2.png)
