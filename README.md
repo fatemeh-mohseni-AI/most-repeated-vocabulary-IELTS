@@ -1,7 +1,8 @@
-# Cambridge IELTS PDF Analyzer
+## $${\color{yellow}Cambridge\space IELTS \space PDF \space  Analyzer}$$ :dizzy: 
 
-This project is a FastAPI-based web application designed to analyze Cambridge IELTS PDFs (Books 1-18) for the most and least repeated words. It can handle both regular text-based PDFs and scanned image-based PDFs by converting them to images and extracting text using OCR (Optical Character Recognition). Additionally, it performs spell-checking and word correction to ensure the accuracy of the extracted text.
-## Features
+This project is a FastAPI-based web application designed to analyze $${\color{lightgreen}Cambridge \space IELTS \space PDFs \space (Books 1-18)}$$ for the most and least repeated words. It can handle both regular text-based PDFs and scanned image-based PDFs by converting them to images and extracting text using OCR (Optical Character Recognition). Additionally, it performs spell-checking and word correction to ensure the accuracy of the extracted text.
+
+## $${\color{LightSKYBlue}Features}$$ :bulb:
 
 - **PDF Upload**: Upload PDF files (IELTS books) via the web interface.
 - **OCR for Scanned PDFs**: For PDFs that consist of scanned images instead of real text, the application converts the pages to images and extracts text using OCR (via libraries like pytesseract).
@@ -19,7 +20,8 @@ This project is a FastAPI-based web application designed to analyze Cambridge IE
   - `/analyze/`: Perform a fresh analysis of all uploaded files, extracting word metadata.
 - **Customizable Queries**: Fetch the most and least repeated words with customizable limits via query parameters.
 
-## Tech Stack
+
+## $${\color{LightSKYBlue}Tech \space Stack}$$ :computer:
 
 - **Backend**: FastAPI
 - **Database**: SQLite (via SQLAlchemy ORM)
@@ -30,7 +32,7 @@ This project is a FastAPI-based web application designed to analyze Cambridge IE
 - **Frontend**: Basic HTML/CSS rendering for data display
 - **Deployment**: Uvicorn server
 
-## Installation
+## $${\color{LightSKYBlue}Installation}$$ :ghost:
 
 1. Clone the repository:
    ```bash
@@ -52,17 +54,27 @@ This project is a FastAPI-based web application designed to analyze Cambridge IE
     ```bash
     uvicorn src.main:app --reload
     ```
-## Future Improvements      
-- **Enhanced Text Extraction**: Improve the accuracy of text extraction, especially for complex PDFs, by fine-tuning OCR settings and using more advanced text extraction libraries.
-- **Frontend Redesign with React**: Build a more user-friendly and interactive frontend using React to display and manage the analysis results.
-- **Additional Queries**: Implement more sophisticated queries, such as filtering results by book, word length, or frequency range.
-- **Sentence Metadata**: Store the sentences in which the most important words have been used, and provide endpoints to retrieve this information.
-- **Word Lemmatization and Stemming**: Incorporate advanced linguistic processing techniques like lemmatization and stemming to group different forms of the same word.
-- **Advanced Spell Correction**: Use machine learning models to enhance the spell-checking and correction system for better accuracy.
-- **Multi-language Support**: Expand the application to support other languages beyond English, including additional character sets and stop word lists.
-- **Improved PDF Handling**: Add support for handling password-protected PDFs and improving performance for large documents.
-- **User Authentication**: Add user authentication and role-based access control for managing file uploads and analysis data.
+## $${\color{LightSKYBlue}Future \space Improvements}$$ :zap:    
 
-## Demo 
+:one: **Enhanced Text Extraction**: Improve the accuracy of text extraction, especially for complex PDFs, by fine-tuning OCR settings and using more advanced text extraction libraries.
+
+:two: **Frontend Redesign with React**: Build a more user-friendly and interactive frontend using React to display and manage the analysis results.
+
+:three: **Additional Queries**: Implement more sophisticated queries, such as filtering results by book, word length, or frequency range.
+
+:four: **Sentence Metadata**: Store the sentences in which the most important words have been used, and provide endpoints to retrieve this information.
+
+:five: **Word Lemmatization and Stemming**: Incorporate advanced linguistic processing techniques like lemmatization and stemming to group different forms of the same word.
+
+:six: **Advanced Spell Correction**: Use machine learning models to enhance the spell-checking and correction system for better accuracy.
+
+:seven: **Multi-language Support**: Expand the application to support other languages beyond English, including additional character sets and stop word lists.
+
+:eight: **Improved PDF Handling**: Add support for handling password-protected PDFs and improving performance for large documents.
+
+:nine: **User Authentication**: Add user authentication and role-based access control for managing file uploads and analysis data.
+
+
+## $${\\color{LightSKYBlue}Demo}$$ :iphone:
 
 ![Demo of Cambridge IELTS PDF Analyzer](images/demo.png)
